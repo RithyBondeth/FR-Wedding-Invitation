@@ -2,7 +2,7 @@ import coupleBackgroundImage2 from "@/assets/couple-background2.jpg";
 
 export default function SectionFive() {
     return (
-        <div className="relative h-screen flex flex-col items-center justify-center gap-10 px-10">
+        <div className="relative h-fit flex flex-col items-center justify-center gap-10 px-10">
             <div 
                 className="absolute inset-0 bg-center bg-cover bg-no-repeat "
                 style={{ backgroundImage: `url(${coupleBackgroundImage2.src})`,backgroundPosition: '55% 50%', filter: 'blur(2px)'}}
