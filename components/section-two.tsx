@@ -12,8 +12,8 @@ export default function SectionTwo() {
                 <p>លោកស្រី លាន ដាន</p>
               </div>
               <div className="flex flex-col gap-3 text-md">
-                <p>លោក ហេង ​កេត</p>
-                <p>លោកស្រី លាន ដាន</p>
+                <p>លោក សេង ហុី</p>
+                <p>លោកស្រី ស្រេង ម៉េងសេង</p>
               </div>
             </div>
             {/* Box Two */}
