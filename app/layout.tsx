@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: "យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងប្រិយមិត្ត អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធិពរជ័យ សិរីសួស្តីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ របស់យើងខ្ញុំទាំងពីរ។! ❤️",
     images: [
       {
-        url: "https://i.imgur.com/iaWHRYZ.jpeg",
+        url: "https://kean-gech-wedding.vercel.app/thumbnail.png",
         width: 1200,
         height: 630,
         alt: "Kean & Gech Wedding Thumbnail",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "លិខិតអញ្ជើញមង្គលអាពាហ៍ពិពាហ៍",
     description: "យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ជើញឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងប្រិយមិត្ត អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធិពរជ័យ សិរីសួស្តីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ របស់យើងខ្ញុំទាំងពីរ។! ❤️",
-    images: ["https://i.imgur.com/iaWHRYZ.jpeg"],
+    images: ["https://kean-gech-wedding.vercel.app/thumbnail.png"],
   },
   icons: {
     icon: "/logo.png",
@@ -62,11 +62,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <head>
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
-
         {/* ✅ Correct Open Graph Metadata for Telegram */}
         <meta property="og:title" content="Kean & Gech Wedding" />
         <meta property="og:description" content="សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️" />
-        <meta property="og:image" content="https://i.imgur.com/iaWHRYZ.jpg?v=10" />
+        <meta property="og:image" content="https://kean-gech-wedding.vercel.app/thumbnail.png?v=11" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
@@ -79,8 +78,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kean & Gech Wedding" />
         <meta name="twitter:description" content="សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️" />
-        <meta name="twitter:image" content="https://i.imgur.com/iaWHRYZ.jpg?v=10" />
-      
+        <meta name="twitter:image" content="https://kean-gech-wedding.vercel.app/thumbnail.png?v=11" />
       </head>
       <body className={`${moul.variable} ${battambang.variable} ${tangerine.variable} ${timesNewRoman.variable} antialiased`}>
         {children}
