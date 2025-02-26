@@ -6,12 +6,12 @@ export default function SectionTwo() {
     return (
         <div className="h-fit w-full gold-bg flex flex-col gap-5 px-5 pb-5">
             {/* Box One */}
-            <div className="flex items-start justify-around gold-text font-moul my-3">
-              <div className="flex flex-col gap-3 text-md">
+            <div className="flex items-center justify-around gold-text font-moul my-3">
+              <div className="flex flex-col gap-3 text-sm">
                 <p>លោក ហេង ​កេត</p>
                 <p>លោកស្រី លាន ដាន</p>
               </div>
-              <div className="flex flex-col gap-3 text-md">
+              <div className="flex flex-col gap-3 text-sm">
                 <p>លោក សេង ហុី</p>
                 <p>លោកស្រី ស្រេង ម៉េងសេង</p>
               </div>
