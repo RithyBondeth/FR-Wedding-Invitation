@@ -1,4 +1,4 @@
-import coupleBackgroundImage from "@/assets/couple-background.jpg";
+import coupleBackgroundImage1 from "@/assets/couple-background1.jpg";
 
 export default function SectionThree() {
     const scheduleList1 = [
@@ -24,7 +24,7 @@ export default function SectionThree() {
           {/* Blurred background layer */}
           <div 
             className="absolute inset-0 bg-center bg-cover bg-no-repeat"
-            style={{ backgroundImage: `url(${coupleBackgroundImage.src})`,backgroundPosition: '55% 50%', filter: 'blur(2px)'}}
+            style={{ backgroundImage: `url(${coupleBackgroundImage1.src})`,backgroundPosition: '55% 50%', filter: 'blur(2px)'}}
           />
           {/* Content layer */}
           <div className="relative h-full flex justify-center items-center text-[#FFDC00] font-moul px-5">

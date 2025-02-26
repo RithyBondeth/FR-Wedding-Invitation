@@ -3,6 +3,7 @@
 import topImage from "@/assets/top-image.svg";
 import logoImage from "@/assets/logo-image.svg";
 import nameFrameImage from "@/assets/name-frame.svg";
+import butterFlyImage from "@/assets/butterfly.gif";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 
@@ -14,6 +15,13 @@ export default function SectionOne() {
     return (
         <div className="relative w-full">
               <Image src={topImage} alt="Top background" className="w-full h-auto" priority/>
+              <Image 
+                src={butterFlyImage} 
+                alt="Butterfly" 
+                className="absolute top-12 left-1/2 -translate-x-1/2 size-60"
+                unoptimized
+                priority
+              />
               <div className="absolute top-44 xs:top-36 w-full flex flex-col justify-center items-center gap-5">
                 <Image src={logoImage} alt="Logo"/>
                 <div className="gold-text text-xl font-moul flex flex-col items-center gap-5">
