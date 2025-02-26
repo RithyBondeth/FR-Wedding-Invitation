@@ -11,6 +11,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        gold: '#F4F0E4',
+      },
+      screens: {
+        'xs': {'max': '400px'},
+      },
+      fontFamily: {
+        moul: ['var(--font-moul)', 'sans-serif'],
+        battambang: ['var(--font-battambang)', 'sans-serif'],
+        tangerine: ['var(--font-tangerine)', 'cursive'],
+        times: ['Times New Roman', 'serif'],
       },
     },
   },
