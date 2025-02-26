@@ -6,11 +6,15 @@ import nameFrameImage from "@/assets/name-frame.svg";
 import butterFlyImage from "@/assets/butterfly.gif";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
-
+import { useState, useEffect } from "react";
 export default function SectionOne() {
 
     const searchParams = useSearchParams();
-    const name = searchParams.get('name') as string;
+    const [name, setName] = useState<string>("ឈ្មោះ");
+
+    useEffect(() => {
+        setName(searchParams.get("name") || "ឈ្មោះ");
+    }, [searchParams]);
 
     return (
         <div className="relative w-full">
