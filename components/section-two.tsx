@@ -4,7 +4,7 @@ import dividerImage from "@/assets/divider.svg";
 
 export default function SectionTwo() {
     return (
-        <div className="h-fit w-full gold-bg flex flex-col gap-5 px-5 pb-5">
+        <div className="h-fit w-full gold-bg flex flex-col gap-5 px-3 pb-5">
             {/* Box One */}
             <div className="flex items-center justify-around gold-text font-moul my-3">
               <div className="flex flex-col gap-3 text-sm">
@@ -18,25 +18,25 @@ export default function SectionTwo() {
             </div>
             {/* Box Two */}
             <div className="flex flex-col items-center justify-center gap-3 gold-text">
-              <p className="text-md font-moul">យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ចើញ</p>
-              <p className="text-sm text-center leading-loose font-battambang">
+              <p className="text-sm font-moul">យើងខ្ញុំមានកិត្តិយសសូមគោរពអញ្ចើញ</p>
+              <p className="text-xs text-center leading-loose font-battambang">
                 សម្ដេច ទ្រង់ ឯកឧត្ដម លោកឧកញ៉ា អ្នកឧកញ៉ា ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ចើញចូលរួមជា អធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្ដីជ័យមង្គលក្នុងពិធីរៀបអាពាហ៍ពីពាហ៍ កូនប្រុស-កូនស្រី របស់យើងខ្ញុំ
               </p>
             </div>
             {/* Box Three */}
             <div className="flex items-center justify-around gold-text">
               <div className="flex flex-col items-center gap-3">
-                  <p className="text-sm font-battambang">កូនប្រុសនាម</p>
-                  <p className="text-md font-moul">កេត​ ម៉េងគាន</p>
+                  <p className="text-xs font-battambang">កូនប្រុសនាម</p>
+                  <p className="text-sm font-moul">កេត​ ម៉េងគាន</p>
               </div>
               <Image src={statueImage} alt="Statue Image"/>
               <div className="flex flex-col items-center gap-3">
-                  <p className="text-sm font-battambang">កូនស្រីនាម</p>
-                  <p className="text-md font-moul">ហុី ហុងហ្គិច</p>
+                  <p className="text-xs font-battambang">កូនស្រីនាម</p>
+                  <p className="text-sm font-moul">ហុី ហុងហ្គិច</p>
               </div>
             </div>
             {/* Box Four */}
-            <p className="gold-text text-center text-sm font-battambang leading-loose">
+            <p className="gold-text text-center text-xs font-battambang leading-loose">
               ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃអាទិត្យ ១០​រោច ខែផល្គុន ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី២៣ ខែមីនា ឆ្នាំ២០២៥ វេលាម៉ោង ៥ ល្ងាច ស្ថិតនៅគេហដ្ធានខាងស្រី ភូមិកំពង់សំបូរលើ ឃុំព្រែកថ្មី ស្រុកកោះធំ ខេត្តកណ្ដាល ដោយមេត្រីភាព ។ សូមអគុណ !
             </p>
             {/* Box Five */}

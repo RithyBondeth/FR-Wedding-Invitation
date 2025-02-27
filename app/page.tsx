@@ -1,5 +1,3 @@
-import bottomIamge from "@/assets/bottom-image.svg";
-import Image from "next/image";
 import SectionOne from "@/components/section-one";
 import SectionTwo from "@/components/section-two";
 import SectionThree from "@/components/section-three";
@@ -15,9 +13,6 @@ export default function Home() {
         <Suspense fallback={<p>Loading...</p>}>
             <SectionOne />
         </Suspense>
-        <div className="relative w-full">
-          <Image src={bottomIamge} alt="Bottom background" className="w-full h-auto gold-bg" priority/>
-        </div>
         <SectionTwo/>
         <SectionThree/>
         <SectionFour/>  
