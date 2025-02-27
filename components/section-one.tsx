@@ -14,7 +14,7 @@ export default function SectionOne() {
 
     useEffect(() => {
         setName(searchParams.get("name"));
-    }, [searchParams]);
+    }, [searchParams]);  
 
     return (
         <div className="relative w-full">
@@ -41,15 +41,15 @@ export default function SectionOne() {
                 {/* Name Frame - Now Smaller & Fits Well on Mobile */}
                 {name && (
                     <div
-                        className="relative flex justify-center items-center w-[70%] max-w-[320px] aspect-[3.8/1] bg-center bg-cover bg-no-repeat p-2"
+                        className="relative flex justify-center items-center w-[70%] max-w-[280px] aspect-[3.8/1] bg-center bg-cover bg-no-repeat px-2"
                         style={{ backgroundImage: `url(${nameFrameImage.src})` }}
                     >
                         {/* Khmer Name Text - Perfect Fit for Mobile */}
                         <p className="text-center gold-text font-moul tracking-wide px-3"
                             style={{
-                                fontSize: "clamp(10px, 3.5vw, 14px)", 
-                                maxWidth: "85%",
-                                lineHeight: "1.6", // Tight spacing for Khmer text
+                                fontSize: "clamp(9px, 3.2vw, 13px)", 
+                                maxWidth: "80%",
+                                lineHeight: "1.6",
                                 letterSpacing: "0.2px",
                             }}
                         >

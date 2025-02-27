@@ -12,7 +12,7 @@ export default function SectionTwo() {
                 <p>លោកស្រី លាន ដាន</p>
               </div>
               <div className="flex flex-col gap-3 text-sm">
-                <p>លោក សេង ហុី</p>
+                <p>លោក សេង ហ៊ី</p>
                 <p>លោកស្រី ស្រេង ម៉េងសេង</p>
               </div>
             </div>
@@ -32,7 +32,7 @@ export default function SectionTwo() {
               <Image src={statueImage} alt="Statue Image"/>
               <div className="flex flex-col items-center gap-3">
                   <p className="text-xs font-battambang">កូនស្រីនាម</p>
-                  <p className="text-sm font-moul">ហុី ហុងហ្គិច</p>
+                  <p className="text-sm font-moul">ហ៊ី ហុងហ្គិច</p>
               </div>
             </div>
             {/* Box Four */}
