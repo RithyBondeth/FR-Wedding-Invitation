@@ -78,7 +78,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kean & Gech Wedding" />
         <meta name="twitter:description" content="សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️" />
-        <meta name="twitter:image" content="https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=16" />
+        <meta name="twitter:image" content="https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=15" />
       </head>
       <body className={`${moul.variable} ${battambang.variable} ${tangerine.variable} ${timesNewRoman.variable} antialiased`}>
         {children}

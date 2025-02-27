@@ -35,7 +35,7 @@ export default function SectionOne() {
                 <Image src={logoImage} alt="Logo" className="w-24 xs:w-28" />
                 <div className="gold-text text-lg xs:text-xl font-moul flex flex-col items-center gap-3">
                     <p>សិរីមង្គលអាពាហ៍ពិពាហ៍</p>
-                    <p>សូមគោរពអញ្ចើញ</p>
+                    <p>សូមគោរពអញ្ជើញ</p>
                 </div>
 
                 {/* Name Frame - Now Smaller & Fits Well on Mobile */}
