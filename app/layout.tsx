@@ -65,7 +65,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {/* ✅ Correct Open Graph Metadata for Telegram */}
         <meta property="og:title" content="Kean & Gech Wedding" />
         <meta property="og:description" content="សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️" />
-        <meta property="og:image" content="https://kean-gech-wedding.vercel.app/thumbnail.png?v=11" />
+        <meta property="og:image" content="https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=16" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
@@ -78,7 +78,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kean & Gech Wedding" />
         <meta name="twitter:description" content="សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️" />
-        <meta name="twitter:image" content="https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=11" />
+        <meta name="twitter:image" content="https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=16" />
       </head>
       <body className={`${moul.variable} ${battambang.variable} ${tangerine.variable} ${timesNewRoman.variable} antialiased`}>
         {children}
