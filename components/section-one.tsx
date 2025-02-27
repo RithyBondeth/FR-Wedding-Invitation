@@ -41,7 +41,7 @@ export default function SectionOne() {
                 {/* Name Frame - Now Smaller & Fits Well on Mobile */}
                 {name && (
                     <div
-                        className="relative flex justify-center items-center w-[70%] max-w-[280px] aspect-[3.8/1] bg-center bg-cover bg-no-repeat px-2"
+                        className={` relative flex justify-center items-center ${name.length > 15 ? "w-[70%] max-w-[280px]" : "w-[60%] max-w-[180px]"} aspect-[3.8/1] bg-center bg-cover bg-no-repeat px-2`}
                         style={{ backgroundImage: `url(${nameFrameImage.src})` }}
                     >
                         {/* Khmer Name Text - Perfect Fit for Mobile */}
