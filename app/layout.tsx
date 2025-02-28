@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Moul, Battambang, Tangerine } from 'next/font/google';
+import { Moul, Battambang, Tangerine, Poppins } from 'next/font/google';
 import "./globals.css";
 
 const moul = Moul({
@@ -21,6 +21,13 @@ const tangerine = Tangerine({
   weight: ['400', '700'],
   display: 'swap',
   variable: '--font-tangerine',
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-poppins',
 });
 
 const timesNewRoman = {
@@ -80,7 +87,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="twitter:description" content="សូមអញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់យើង! ❤️" />
         <meta name="twitter:image" content="https://kean-gech-wedding.vercel.app/thumbnail.jpg?v=15" />
       </head>
-      <body className={`${moul.variable} ${battambang.variable} ${tangerine.variable} ${timesNewRoman.variable} antialiased`}>
+      <body className={`${moul.variable} ${battambang.variable} ${tangerine.variable} ${poppins.variable} ${timesNewRoman.variable} antialiased`}>
         {children}
       </body>
     </html>

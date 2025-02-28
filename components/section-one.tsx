@@ -12,6 +12,11 @@ export default function SectionOne() {
     const searchParams = useSearchParams();
     const [name, setName] = useState<string | null>(null);
 
+    // Add helper function to detect Khmer text
+    const isKhmerText = (text: string) => {
+        return /[\u1780-\u17FF]/.test(text);
+    };
+
     useEffect(() => {
         setName(searchParams.get("name"));
     }, [searchParams]);  
@@ -41,11 +46,11 @@ export default function SectionOne() {
                 {/* Name Frame - Now Smaller & Fits Well on Mobile */}
                 {name && (
                     <div
-                        className={` relative flex justify-center items-center ${name.length > 15 ? "w-[70%] max-w-[280px]" : "w-[60%] max-w-[180px]"} aspect-[3.8/1] bg-center bg-cover bg-no-repeat px-2`}
+                        className={`relative flex justify-center items-center ${name.length > 15 ? "w-[70%] max-w-[280px]" : "w-[60%] max-w-[180px]"} aspect-[3.8/1] bg-center bg-cover bg-no-repeat px-2`}
                         style={{ backgroundImage: `url(${nameFrameImage.src})` }}
                     >
-                        {/* Khmer Name Text - Perfect Fit for Mobile */}
-                        <p className="text-center gold-text font-moul tracking-wide px-3"
+                        {/* Dynamic font based on text type */}
+                        <p className={`text-center gold-text tracking-wide px-3 ${isKhmerText(name) ? 'font-moul' : 'font-poppins font-bold'}`}
                             style={{
                                 fontSize: "clamp(9px, 3.2vw, 13px)", 
                                 maxWidth: "80%",

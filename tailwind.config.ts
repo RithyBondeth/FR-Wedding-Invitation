@@ -21,6 +21,7 @@ export default {
         battambang: ['var(--font-battambang)', 'sans-serif'],
         tangerine: ['var(--font-tangerine)', 'cursive'],
         times: ['Times New Roman', 'serif'],
+        poppins: ['var(--font-poppins)'],
       },
     },
   },
