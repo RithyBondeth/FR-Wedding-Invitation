@@ -1,5 +1,5 @@
 import Image from "next/image";
-import statueImage from "@/assets/statue-image.svg";
+import statueImage from "@/assets/statue-image.png";
 import dividerImage from "@/assets/divider.svg";
 
 export default function SectionTwo() {
