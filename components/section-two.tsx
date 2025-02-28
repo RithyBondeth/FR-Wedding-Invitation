@@ -4,7 +4,7 @@ import dividerImage from "@/assets/divider.svg";
 
 export default function SectionTwo() {
     return (
-        <div className="h-fit w-full gold-bg flex flex-col gap-5 px-5 pb-5">
+        <div className="h-fit w-full gold-bg flex flex-col gap-5 px-6 pb-5">
             {/* Box One */}
             <div className="flex items-center justify-around gold-text font-moul my-3">
               <div className="flex flex-col gap-3 text-sm">
