@@ -4,7 +4,7 @@ import dividerImage from "@/assets/divider.svg";
 
 export default function SectionTwo() {
     return (
-        <div className="h-fit w-full gold-bg flex flex-col gap-5 px-6 pb-5">
+        <div className="h-fit w-full gold-bg flex flex-col gap-5 px-5 pb-5">
             {/* Box One */}
             <div className="flex items-center justify-around gold-text font-moul my-3">
               <div className="flex flex-col gap-3 text-sm">
@@ -37,7 +37,7 @@ export default function SectionTwo() {
             </div>
             {/* Box Four */}
             <p className="gold-text text-center text-xs font-battambang leading-loose">
-              ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃអាទិត្យ ១០​រោច ខែផល្គុន ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី២៣ ខែមីនា ឆ្នាំ២០២៥ វេលាម៉ោង ៥ ល្ងាច ស្ថិតនៅគេហដ្ឋានខាងស្រី ភូមិកំពង់កំពង់សំបួរលើ ឃុំព្រែកថ្មី ស្រុកកោះធំ ខេត្តកណ្ដាល ដោយមេត្រីភាព ។ សូមអគុណ !
+              ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃអាទិត្យ ១០​រោច ខែផល្គុន ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី២៣ ខែមីនា ឆ្នាំ២០២៥ វេលាម៉ោង ៥ ល្ងាច ស្ថិតនៅគេហដ្ឋានខាងស្រី ភូមិកំពង់សំបួរលើ ឃុំព្រែកថ្មី ស្រុកកោះធំ ខេត្តកណ្ដាល ដោយមេត្រីភាព ។ សូមអគុណ !
             </p>
             {/* Box Five */}
             <div className="w-full flex flex-col items-center gap-5 gold-text">
