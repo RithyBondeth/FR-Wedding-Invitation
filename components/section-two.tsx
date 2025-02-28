@@ -29,7 +29,7 @@ export default function SectionTwo() {
                   <p className="text-xs font-battambang">កូនប្រុសនាម</p>
                   <p className="text-sm font-moul">កេត​ ម៉េងគាន</p>
               </div>
-              <Image src={statueImage} alt="Statue Image"/>
+              <Image src={statueImage} alt="Statue Image" className="size-24 xs:size-20"/>
               <div className="flex flex-col items-center gap-3">
                   <p className="text-xs font-battambang">កូនស្រីនាម</p>
                   <p className="text-sm font-moul">ហ៊ី ហុងហ្គិច</p>
