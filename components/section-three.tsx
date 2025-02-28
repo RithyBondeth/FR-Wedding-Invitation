@@ -51,7 +51,7 @@ export default function SectionThree() {
                 <div className="w-full flex flex-col items-center justify-center gap-5 pt-5">
                   <div className="flex flex-col items-center gap-3 text-sm">
                     <p>កម្មវិធីថ្ងៃទី២</p>
-                    <p>ថ្ងៃសៅរ៍ ទី២៣ ខែមីនា ឆ្នាំ២០២៥</p>
+                    <p>ថ្ងៃអាទិត្យ ទី២៣ ខែមីនា ឆ្នាំ២០២៥</p>
                   </div>
                   <ul className="flex flex-col items-start gap-2">
                     {scheduleList2.map((item, index) => (
